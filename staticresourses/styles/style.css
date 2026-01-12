@@ -5402,8 +5402,6 @@ ul.breadcrumb li i {
     transition: transform 1s ease;
 }
 
-
-
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
     .cls-subnav, .cls-primarynav, .cls-nav-items {
@@ -5467,6 +5465,23 @@ ul.breadcrumb li i {
         font-size: 15px;
       }
 
+      .cls-about-inner-left, .cls-about-inner-right {
+        width: 100%;
+        display: block;
+        float: none;
+     }
+
+     .cls-trendingus h1 {
+        padding: 80px 0px 20px 0px;
+        margin: auto;
+    }
+
+    .cls-about-inner {
+        width: 100%;
+        height: 100%;
+        display: block; 
+}
+
       .cls-footer-col ul li {
         font-size: 15px;
       }
@@ -5519,9 +5534,36 @@ ul.breadcrumb li i {
     }
 
     .cls-aboutus span {
-        text-align: justify;
+        text-align: center;
         width:auto;
-      }
+    }
+
+      .cls-about-image {
+        position: relative;
+        width: 100%;
+        height: 350px;
+    }
+
+    .cls-contact-wrapper {
+        display: block;
+    }
+
+    .cls-process-section-more {
+    flex-wrap: nowrap;
+    }
+
+    .cls-process-section-details {
+    height: 600px;
+    }
+
+    .cls-about-inner-right img {
+        width: 80% !important;
+        max-width: 100%;
+        margin: 20px auto;
+        display: inline;
+        padding: 0;
+        top: 20px;
+    }
 
       .cls-div-info-align {
         flex-direction: column;
@@ -5639,14 +5681,27 @@ ul.breadcrumb li i {
         padding: 10px 10px 0px 10px;
       }
 
+      .cls-footer-col h4 {
+        margin: 40px;
+      }
+
       .cls-footer-menu {
        display:none;
+      }
+
+      .cls-infoadvert {
+        min-height: calc(100vh - 350px);
       }
 
       .cls-footer-section .cls-copyright-lt a {
         width: 95%;
         display: block;
       }
+
+      .cls-footer-auto-section .cls-footer-col:nth-child(3) {
+        left: -40px;
+        position: static;
+     }
 
       .cls-inner-left-section {
         flex-basis: 80%;
@@ -5950,7 +6005,7 @@ ul.breadcrumb li i {
       }
 
       .cls-contact-wrapper {
-        width: 50%;
+        width: 100%;
         margin: auto;
       }
 
