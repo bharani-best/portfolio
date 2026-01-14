@@ -5583,6 +5583,15 @@ ul.breadcrumb li i {
         width: auto;
       }
 
+      .cls-courses-section{
+        margin: 0px 0px 100px 0px;
+      }
+
+      .layout_nd{
+        overflow: visible;
+        margin: 10px auto 150px auto;
+      }
+
       .cls-card-shadow{
         width: auto;
     }
@@ -5601,6 +5610,10 @@ ul.breadcrumb li i {
 
       .cls-div-info {
         margin-bottom: 20px;
+      }
+
+      .cls-div-info + .cls-div-info {
+        margin-top: 80%;
       }
 
 
