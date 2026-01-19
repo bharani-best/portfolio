@@ -305,7 +305,7 @@ $(document).ready(function () {
  */
 
     var first = [''];
-var second = ['Project Manager','Product Manager','UX Design Manager','UI Front End Lead'];
+var second = ['UI / UX Designer','Web Developer Lead', 'UX Design Manager', 'Tech Enthusiast', 'Creative Coder','Project Lead','Project Manager'];
 var firstM = [], secondM = [], el;
 
 var $first = $('.the-first'); 
