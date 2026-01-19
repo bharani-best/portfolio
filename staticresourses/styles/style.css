@@ -2273,12 +2273,21 @@ ul.cls-course-dropdown-section:last-child {
 .cls-contact-section h1 {
     font-family: "Rajdhani", sans-serif;
     font-size: 40px;
-    color: #ffffff;
     padding: 80px 0px 20px 0px;
     margin: 0px;
     text-align: center;
     font-weight: 700;
     position: relative;
+}
+
+.cls-contact-section h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    font-size: 28px;
+    width: 100%;
+    text-align: left !important;
+    padding: 40px 0px 0px 0px;
 }
 
 .cls-process-section p {
