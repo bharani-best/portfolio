@@ -138,7 +138,7 @@ html {
 
 .cls-nav-items {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-basis: 60%;
 }
 
@@ -242,13 +242,14 @@ input[value="Explore"]:hover {
 
 .cls-headline {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .cls-headline .the-second {
     padding: 20px 0px 30px 0px;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 .cls-headline h1 {
