@@ -5538,13 +5538,15 @@ ul.breadcrumb li i {
         width: 100%;
         height: 100%;
         display: block; 
-}
+    }
 
       .cls-footer-col ul li {
         font-size: 15px;
       }
 
-     
+     .cls-ad-section-details ul li{
+        margin: 20px auto;
+      }
 
     .cls-infoadvert-bodyct h1 span + span {
         font-size: 1.5rem;
