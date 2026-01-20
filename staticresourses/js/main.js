@@ -140,23 +140,33 @@ $(document).ready(function () {
         $(this).addClass("active");
     });
 
-    $(".cls-contact").bind('click', function () {
+    $(".cls-workflow").bind('click', function () {
+       // event.preventDefault();
+        $(".cls-nav-items a:not(.cls-workflow)").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    $(".cls-casestudy").bind('click', function () {
         $(".cls-nav-items a:not(.cls-contact)").removeClass("active");
         $(this).addClass("active");
     });
 
     
-    $("#coursesInfo, #coursesbookNow").bind('click', function () {
+    $("#coursesbookNow").bind('click', function () {
         window.location.href='pages/about_us.html'; 
     });
 
-    $("#coursesInfo, #exploreMore").bind('click', function () {
+    $("#exploreMore").bind('click', function () {
         window.location.href='pages/courses.html'; 
     });
 
-    $("#coursesInfo, #adSectionExplore").bind('click', function () {
+     $("#adSectionExplore").bind('click', function () {
         window.location.href='pages/services.html'; 
-    });
+    }); 
+
+    $("#coursesInfo").bind('click', function () {
+        window.location.href='pages/contact_us.html'; 
+    }); 
 
     $(".cls-about").bind('click', function () {
       //  alert("hai");
