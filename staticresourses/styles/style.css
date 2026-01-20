@@ -499,6 +499,7 @@ input[value="Explore"]:hover {
     margin: 10px 0px 0px 0px;
     box-shadow: 0px 1px 0px #CCC, -1px 0px 0px #CCC, 0px 0px 1px #ccc, 0px 0px 0px 0px;
     border-radius: 20px;
+    border: 1px solid #d6d4d4;
 }
 
 .cls-div-inside-body-lt{
@@ -508,6 +509,7 @@ input[value="Explore"]:hover {
     overflow: hidden;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-right:1px solid #ccc;
 }
 
 .cls-div-inside-body-lt h1{
@@ -516,15 +518,12 @@ input[value="Explore"]:hover {
 }
 
 .cls-div-inside-body-lt img{
-    width: 85%;
-    margin: 60px auto 10px auto;
-    border-radius: 10px;
+    width: 100%;
     display: flex;
     height: 100%;
-    transform: scale(1.1);
     object-fit: cover;
     object-position: -2px 0px;
-    border: 1px solid #8edae2;
+    border-right: 1px solid #303131;
 }
 
 .cls-div-inside-body-rt{
@@ -1530,6 +1529,10 @@ margin: 0px 15px 50px 15px;
     border-bottom: 1px solid #dbd7d7;
 }
 
+.cls-courses-section .cls-abt-divider .cls-all-page .cls-productslist{
+     gap:0px !important;
+    }
+
 .cls-productbanner {
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -1970,7 +1973,7 @@ ul.cls-course-dropdown-section:last-child {
     /* flex-basis: 30%; */
     width:27%;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .cls-productinfo.cls-slide-left.cls-product-div:hover,
@@ -3578,7 +3581,7 @@ img {
 .heading_container_about p{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     color: #474545;
     padding: 0px 0px 10px 0px;
     margin: 0;
@@ -4657,10 +4660,10 @@ ul.breadcrumb li i {
     line-height: 24px;
     padding: 0;
     position: relative;
-    top: -115px;
-    color: #f0fffe !important;
-    font-size: 20px;
-    left: 40px;
+    top: -39px;
+    color: #f8ffff !important;
+    font-size: 16px;
+    left: 18px;
   }
   
   .br-box h3 {
@@ -4861,7 +4864,7 @@ ul.breadcrumb li i {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border-bottom:2px solid #eae3ed;
+    border:2px solid #eae3ed;
     background:linear-gradient(0deg, #fffbfb 0%, #f2edf6 100%);
     user-select: none;
     transition: background 0.4s, padding-left 0.2s;
@@ -4873,6 +4876,7 @@ ul.breadcrumb li i {
     background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
     color: #fff;
     z-index: 5;
+    border-radius: 5px;
     span{
         padding: 0px;
         margin:0px;
@@ -5137,6 +5141,7 @@ ul.breadcrumb li i {
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 30%;
     margin: 10px 0px 15px 0px;
+    background: #fcfcfc;
   }
 
   .cls-experience-year{
@@ -5594,6 +5599,18 @@ ul.breadcrumb li i {
         flex-direction: column;
         align-items: center;
       }
+
+      .cls-contact-section h3{
+        text-align: center !important;
+      }
+
+      .cls-contact-section-lt {
+        flex-basis: auto;
+    }
+
+        .cls-contact-section-rt {
+        flex-basis: auto !important;
+    }
 
       .cls-aboutus p{
         text-align: justify;
