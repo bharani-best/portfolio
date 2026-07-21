@@ -176,7 +176,7 @@ $(document).ready(function () {
     // Case study Button navigation functionality 
 
     $(".cls-DXU-casestudy-btn").on('click', function () {
-        window.location.href='case_study_inner_DXU.html'; 
+       /*  window.location.href='case_study_inner_DXU.html';  */
     })
 
     $(".cls-NGCX-casestudy-btn").on('click', function () {
@@ -315,7 +315,7 @@ $(document).ready(function () {
  */
 
     var first = [''];
-var second = ['UI / UX Designer','Web Developer Lead', 'UX Design Manager', 'Tech Enthusiast', 'Creative Coder','Project Lead','Project Manager'];
+var second = ['UI / UX Designer','UX Lead', 'UX Design Manager', 'Tech Enthusiast', 'Product Designer','Web Visual Designer'];
 var firstM = [], secondM = [], el;
 
 var $first = $('.the-first'); 
