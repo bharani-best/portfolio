@@ -5228,11 +5228,24 @@ ul.breadcrumb li i {
 
 .layout{
     display: grid;
-    height: 1900px;
+/*  height: 1900px; */
+    width: 90%;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:80px auto 0px auto;
+}
+
+.layout.cls-container-height {
+  display: grid;
+/*  height: 1900px; */
     width: 90%;
     overflow: hidden;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin:80px auto 0px auto;
+}
+
+.cls-container-height{
+    height: 1900px;
 }
 
 .layout_nd{
@@ -5296,6 +5309,13 @@ ul.breadcrumb li i {
 }
 
 .page{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: span 4;
+    padding: 0px 0px;
+}
+
+.cls-container-height .page{
     grid-column-start: 1;
     grid-row-start: 2;
     grid-column-end: span 5;
