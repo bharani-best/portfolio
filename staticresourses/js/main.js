@@ -68,11 +68,11 @@ $(document).ready(function () {
     });
 
     $(document).on('click', '#courseinfoHome', function () {
-        window.location.href='pages/courses.html'; 
+        window.location.href='pages/portfolio.html'; 
     })
 
     $(document).on('click', '#courseinfoInner', function () {
-        window.location.href='courses.html'; 
+        window.location.href='portfolio.html'; 
     })
 
     $(".cls-navbar-toggle-icon").bind('click', function () {
@@ -157,7 +157,7 @@ $(document).ready(function () {
     });
 
     $("#exploreMore").bind('click', function () {
-        window.location.href='pages/courses.html'; 
+        window.location.href='pages/portfolio.html'; 
     });
 
      $("#adSectionExplore").bind('click', function () {
