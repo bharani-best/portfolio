@@ -786,7 +786,7 @@ input[value="Explore"]:hover {
 
 .cls-layout-imggallery{
     display: flex;
-    width: 95%;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -986,7 +986,7 @@ input[value="Explore"]:hover {
   width: 100%;
   height: 750px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 .cls-layout-content-mainbdy h5{
