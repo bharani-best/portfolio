@@ -700,6 +700,14 @@ input[value="Explore"]:hover {
     margin: 0px 20px;
 }
 
+.cls-layout-img1{
+    background: url(../../assets/images/wireframe-NGCX.png);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+}
+
 .cls-layout-img1 img{
    /*  width: 100%;
     border: 2px solid #0745a7; */
@@ -964,7 +972,7 @@ input[value="Explore"]:hover {
     font-weight: normal;
 }
 
-.cls-layout-img1,.cls-layout-img2{
+.cls-layout-img2{
     width: 100%;
     height: 100%;
     margin:0px 0px 50px 0px;
@@ -5001,7 +5009,11 @@ ul.breadcrumb li i {
     right: -15%;
     border-radius: 15px;
   }
-  
+
+  .page cls-webGraphic-page .cls-productslist{
+    gap: 0 !important;
+  }
+
   .br-about .br-box .progress {
     width: 80px;
     height: 80px;
@@ -5214,7 +5226,7 @@ ul.breadcrumb li i {
 
 .layout{
     display: grid;
-    height: 100%;
+    height: 1900px;
     width: 90%;
     overflow: hidden;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -5317,6 +5329,10 @@ ul.breadcrumb li i {
     margin: 25px auto;
 }
 
+.cls-all-page .cls-productslist, .cls-webGraphic-page .cls-productslist, .cls-WebApps-page .cls-productslist, .cls-Illustration-page .cls-productslist{
+    gap:0 !important;
+}
+
 .layout .cls-productinfo {
     margin: 0px 0px 30px 30px;
 }
@@ -5336,7 +5352,7 @@ ul.breadcrumb li i {
     margin: 0px auto 0px auto;
     flex-wrap: wrap;
     box-shadow: 0px 1px 0px #CCC, -1px 0px 0px #CCC, 0px 0px 1px #ccc, 0px 0px 0px 0px;
-    height: 98%;
+    height: calc(100% - 50px);
     background: #fff;
 }
 
