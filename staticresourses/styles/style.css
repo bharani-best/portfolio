@@ -488,6 +488,10 @@ input[value="Explore"]:hover {
     margin-bottom: 100px;
 }
 
+.cls-full-width{
+    width:100% !important;
+}
+
 .cls-div-info:nth-child(2){
     margin-bottom: 50px;
 }
