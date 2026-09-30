@@ -5229,7 +5229,7 @@ ul.breadcrumb li i {
     height: 1900px;
     width: 90%;
     overflow: hidden;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin:80px auto 0px auto;
 }
 
@@ -5296,7 +5296,7 @@ ul.breadcrumb li i {
 .page{
     grid-column-start: 1;
     grid-row-start: 2;
-    grid-column-end: span 4;
+    grid-column-end: span 5;
     padding: 0px 0px;
 }
 
@@ -5329,7 +5329,7 @@ ul.breadcrumb li i {
     margin: 25px auto;
 }
 
-.cls-all-page .cls-productslist, .cls-webGraphic-page .cls-productslist, .cls-WebApps-page .cls-productslist, .cls-Illustration-page .cls-productslist{
+.cls-all-page .cls-productslist, .cls-webGraphic-page .cls-productslist, .cls-WebApps-page .cls-productslist, .cls-Illustration-page .cls-productslist,.cls-wireframes-page .cls-productslist{
     gap:0 !important;
 }
 
